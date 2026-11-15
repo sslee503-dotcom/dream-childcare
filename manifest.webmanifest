@@ -1,0 +1,21 @@
+{
+  "name": "꿈이자라는어린이집",
+  "short_name": "꿈이자라는",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "theme_color": "#43765a",
+  "background_color": "#fffdf6",
+  "icons": [
+    {
+      "src": "./icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
