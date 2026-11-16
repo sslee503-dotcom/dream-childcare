@@ -10,10 +10,13 @@
 
 /* Clay-like raised motto plaques, shadow only to right and bottom */
 .motto .tile{border-radius:32px;background:linear-gradient(145deg,#fff 15%,#f8f8f5 85%);box-shadow:7px 9px 9px rgba(52,39,18,.48);border:1px solid #eee9de;color:#064a25;font-weight:900;font-size:clamp(1.15rem,2.5vw,1.6rem);padding:26px 16px;line-height:1.5}.motto{gap:22px}@media(max-width:740px){.motto .tile{padding:23px 12px;box-shadow:6px 8px 8px rgba(52,39,18,.48)}}
+
+/* Final compact motto layout */
+.motto{grid-template-columns:1fr;max-width:740px;margin:0 auto;gap:18px}.motto .tile{display:flex;align-items:center;justify-content:center;gap:clamp(10px,3vw,22px);min-height:92px;padding:10px 18px}.motto .tile img{width:clamp(78px,18vw,112px);height:68px;object-fit:contain;flex-shrink:0}.motto .tile span{flex:0 1 340px;text-align:left;font-size:clamp(1.02rem,3.6vw,1.45rem);white-space:nowrap}@media(max-width:400px){.motto .tile{gap:8px;padding:9px 12px}.motto .tile img{width:76px}.motto .tile span{font-size:1rem}}
 </style></head><body>
 <header><div class="bar"><nav class="nav"><a href="#intro">소개</a><a href="#learning">교육</a><a href="#facility">시설 사진</a><a href="#safety">건강·안전</a><a href="#news">알림</a><a href="#contact">오시는 길</a></nav></div></header>
 <main id="top"><div class="hero"><div class="hero-art"><img src="./assets/building-clay.jpg" alt="꿈이자라는어린이집 3D 클레이 건물" onerror="this.parentElement.classList.add('image-missing')"><h1>꿈이자라는어린이집</h1></div></div>
-<section id="intro"><h2>우리 어린이집 원훈</h2><div class="motto"><div class="tile">꿈을 키우는 어린이</div><div class="tile">생각을 펼치는 어린이</div><div class="tile">사랑을 나누는 어린이</div></div><p>아이의 개성과 성장 속도를 존중하며, 놀이와 경험을 통해 배움의 기쁨을 느끼도록 돕습니다.</p></section>
+<section id="intro"><h2>우리 어린이집 원훈</h2><div class="motto"><div class="tile"><img src="./assets/motto-1.svg" alt="" aria-hidden="true"><span>꿈을 키우는 어린이</span></div><div class="tile"><img src="./assets/motto-2.svg" alt="" aria-hidden="true"><span>생각을 펼치는 어린이</span></div><div class="tile"><img src="./assets/motto-3.svg" alt="" aria-hidden="true"><span>사랑을 나누는 어린이</span></div></div><p>아이의 개성과 성장 속도를 존중하며, 놀이와 경험을 통해 배움의 기쁨을 느끼도록 돕습니다.</p></section>
 <section id="learning"><h2>교육과 보육</h2><div class="cards"><article class="tile"><h3>놀이 중심 배움</h3><p>스스로 탐색하고 표현하는 활동을 소중히 여깁니다.</p></article><article class="tile"><h3>감각과 창의성</h3><p>자연과 예술, 오감을 활용한 경험을 통해 생각을 넓힙니다.</p></article><article class="tile"><h3>함께 자라는 마음</h3><p>친구와 어울리며 배려와 협력의 기쁨을 배웁니다.</p></article></div><details><summary>하루 일과 및 연장보육 안내</summary><p>기본보육·연장보육의 구체적인 운영 시간은 원에서 확인 후 공지합니다.</p></details></section>
 <section id="facility"><h2>시설 사진</h2><p class="note">우리 어린이집의 생활 공간과 놀이 환경을 소개합니다.</p><div class="gallery">
 <article><div class="photo"><img src="./assets/facility-01.jpg" alt="어린이집 건물 외관" loading="lazy" onerror="this.style.display='none';this.parentElement.append('건물 외관 사진 준비 중')"></div><h3>어린이집 전경</h3></article>
