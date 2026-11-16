@@ -26,7 +26,13 @@
 .hero-art img{width:100%;height:auto;object-fit:contain;filter:none;aspect-ratio:auto}.hero-art{background:#fff}.hero{background:#fff}.hero-art h1{display:none!important}
 /* Keep motto below hero as a separate section */
 #intro{margin-top:22px}.nav a{font-weight:900;color:#111}
-/* All informational rectangular cards: strong right/bottom shadow */ .tile,.cards .tile,.gallery article,.notice,details{box-shadow:7px 9px 12px rgba(35,40,32,.42)!important;} .motto .tile{box-shadow:7px 9px 12px rgba(35,40,32,.42)!important;}</style></head><body>
+/* All informational rectangular cards: strong right/bottom shadow */ .tile,.cards .tile,.gallery article,.notice,details{box-shadow:7px 9px 12px rgba(35,40,32,.42)!important;} .motto .tile{box-shadow:7px 9px 12px rgba(35,40,32,.42)!important;}/* Mobile motto: show full illustrations and center text without clipping */
+header .brand{display:none!important}
+.motto .tile{display:flex!important;align-items:center!important;justify-content:center!important;gap:12px!important;min-width:0!important;overflow:visible!important}
+.motto .tile img{width:76px!important;height:76px!important;max-width:26%!important;object-fit:contain!important;flex:0 0 auto!important}
+.motto .tile span{flex:1 1 auto!important;min-width:0!important;text-align:center!important;white-space:normal!important;overflow-wrap:keep-all!important;word-break:keep-all!important}
+@media(max-width:740px){.motto .tile{padding:14px 18px!important}.motto .tile img{width:72px!important;height:72px!important}}
+</style></head><body>
 <header><div class="bar"><nav class="nav"><a href="#intro">소개</a><a href="#learning">교육</a><a href="#facility">시설 사진</a><a href="#safety">건강·안전</a><a href="#news">알림</a><a href="#contact">오시는 길</a></nav></div></header>
 <main id="top"><div class="hero"><div class="hero-art"><img src="./assets/building-clay.jpg" alt="꿈이자라는어린이집 3D 클레이 건물" onerror="this.parentElement.classList.add('image-missing')"></div></div>
 <section id="intro"><h2 class="motto-heading"><span class="leaf">🌿</span><span class="motto-heading-text">우리 어린이집 원훈</span><span class="leaf">🌿</span></h2><div class="motto"><div class="tile" style="box-shadow:8px 10px 12px rgba(30,35,28,.48)!important;"><img src="./assets/motto-1.svg" alt="" aria-hidden="true"><span>꿈을 키우는 어린이</span></div><div class="tile" style="box-shadow:8px 10px 12px rgba(30,35,28,.48)!important;"><img src="./assets/motto-2.svg" alt="" aria-hidden="true"><span>생각을 펼치는 어린이</span></div><div class="tile" style="box-shadow:8px 10px 12px rgba(30,35,28,.48)!important;"><img src="./assets/motto-3.svg" alt="" aria-hidden="true"><span>사랑을 나누는 어린이</span></div></div><p>아이의 개성과 성장 속도를 존중하며, 놀이와 경험을 통해 배움의 기쁨을 느끼도록 돕습니다.</p></section>
